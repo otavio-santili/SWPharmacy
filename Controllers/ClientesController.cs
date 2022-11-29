@@ -43,8 +43,16 @@ namespace SWPharmacy.Controllers
         }
 
         // GET: Clientes/Create
+
         public IActionResult Create()
         {
+            var estado = Enum.GetValues(typeof(Estado)).Cast<Estado>()
+                .Select(e => new SelectListItem
+                {
+                    Value = e.ToString(),
+                    Text = e.ToString()
+                });
+            ViewBag.estado = estado;
             return View();
         }
 
