@@ -111,16 +111,13 @@ namespace SWPharmacy.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<int?>("ClientesId")
+                    b.Property<int>("ClienteID")
                         .HasColumnType("int");
 
-                    b.Property<int?>("ProdutosId")
+                    b.Property<int>("ProdutoID")
                         .HasColumnType("int");
 
                     b.Property<int>("Quantidade")
-                        .HasColumnType("int");
-
-                    b.Property<int>("TipoPagamento")
                         .HasColumnType("int");
 
                     b.Property<float>("ValorTotal")
@@ -128,9 +125,9 @@ namespace SWPharmacy.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ClientesId");
+                    b.HasIndex("ClienteID");
 
-                    b.HasIndex("ProdutosId");
+                    b.HasIndex("ProdutoID");
 
                     b.ToTable("Vendas");
                 });
@@ -175,16 +172,25 @@ namespace SWPharmacy.Migrations
             modelBuilder.Entity("SWPharmacy.Models.Venda", b =>
                 {
                     b.HasOne("SWPharmacy.Models.Cliente", "Clientes")
-                        .WithMany()
-                        .HasForeignKey("ClientesId");
+                        .WithMany("Vendas")
+                        .HasForeignKey("ClienteID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("SWPharmacy.Models.Produto", "Produtos")
                         .WithMany()
-                        .HasForeignKey("ProdutosId");
+                        .HasForeignKey("ProdutoID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Clientes");
 
                     b.Navigation("Produtos");
+                });
+
+            modelBuilder.Entity("SWPharmacy.Models.Cliente", b =>
+                {
+                    b.Navigation("Vendas");
                 });
 #pragma warning restore 612, 618
         }
