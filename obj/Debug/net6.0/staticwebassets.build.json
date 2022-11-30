@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tMb24eXosaSAJzt0gsKcybOICnoGKATriV1WvduMn5M=",
+  "Hash": "PGv87kKE3krpbrnjyt3xWZRuDLJLGOGUC+9nKiyrhYY=",
   "Source": "SWPharmacy",
   "BasePath": "_content/SWPharmacy",
   "Mode": "Default",
@@ -49,6 +49,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Otavio Santili\\source\\repos\\SWPharmacy\\SWPharmacy\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SWPharmacy.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Otavio Santili\\source\\repos\\SWPharmacy\\SWPharmacy\\wwwroot\\css\\S.W.png",
+      "SourceId": "SWPharmacy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Otavio Santili\\source\\repos\\SWPharmacy\\SWPharmacy\\wwwroot\\",
+      "BasePath": "_content/SWPharmacy",
+      "RelativePath": "css/S.W.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\S.W.png"
+    },
+    {
+      "Identity": "C:\\Users\\Otavio Santili\\source\\repos\\SWPharmacy\\SWPharmacy\\wwwroot\\css\\S.W1.png",
+      "SourceId": "SWPharmacy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Otavio Santili\\source\\repos\\SWPharmacy\\SWPharmacy\\wwwroot\\",
+      "BasePath": "_content/SWPharmacy",
+      "RelativePath": "css/S.W1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\S.W1.png"
     },
     {
       "Identity": "C:\\Users\\Otavio Santili\\source\\repos\\SWPharmacy\\SWPharmacy\\wwwroot\\css\\site.css",

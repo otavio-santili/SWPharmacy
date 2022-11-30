@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\SWPharmacy.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Otavio Santili\\source\\repos\\SWPharmacy\\SWPharmacy\\wwwroot\\css\\S.W.png",
+      "PackagePath": "staticwebassets\\css\\S.W.png"
+    },
+    {
+      "Id": "C:\\Users\\Otavio Santili\\source\\repos\\SWPharmacy\\SWPharmacy\\wwwroot\\css\\S.W1.png",
+      "PackagePath": "staticwebassets\\css\\S.W1.png"
+    },
+    {
       "Id": "C:\\Users\\Otavio Santili\\source\\repos\\SWPharmacy\\SWPharmacy\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

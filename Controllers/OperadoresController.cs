@@ -49,6 +49,13 @@ namespace SWPharmacy.Controllers
         // GET: Operadores/Create
         public IActionResult Create()
         {
+            var TipoPermissao = Enum.GetValues(typeof(TipoPermissao)).Cast<TipoPermissao>()
+            .Select(e => new SelectListItem
+            {
+                Value = e.ToString(),
+                Text = e.ToString()
+            });
+            ViewBag.TipoPermissao = TipoPermissao;
             return View();
         }
 

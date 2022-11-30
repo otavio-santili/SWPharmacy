@@ -1,11 +1,11 @@
 ﻿@model SWPharmacy.Models.Operador
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Criar";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Create</h1>
+<h1>Criar</h1>
 
 <h4>Operador</h4>
 <hr />
@@ -20,7 +20,8 @@
             </div>
             <div class="form-group">
                 <label asp-for="TipoPermissao" class="control-label"></label>
-                <select asp-for="TipoPermissao" class="form-control"></select>
+                <select asp-for="TipoPermissao" class="form-control"
+                        asp-items="ViewBag.TipoPermissao"></select>
                 <span asp-validation-for="TipoPermissao" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -31,7 +32,7 @@
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Voltar a lista</a>
 </div>
 
 @section Scripts {
