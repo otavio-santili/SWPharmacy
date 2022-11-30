@@ -48,8 +48,18 @@ namespace SWPharmacy.Controllers
         // GET: Vendas/Create
         public IActionResult Create()
         {
-            ViewData["ClienteID"] = new SelectList(_context.Clientes, "Id", "Id");
-            ViewData["ProdutoID"] = new SelectList(_context.Produtos, "Id", "Id");
+            ViewData["Clientes"] = new SelectList(_context.Clientes, "Id", "Nome");
+            ViewData["Produtos"] = new SelectList(_context.Produtos, "Id", "Nome");
+
+            var TipoPagamento = Enum.GetValues(typeof(TipoPagamento))
+                .Cast<TipoPagamento>()
+                .Select(e => new SelectListItem
+                {
+                    Value = e.ToString(),
+                    Text = e.ToString()
+                });
+            ViewBag.TipoPagamento = TipoPagamento;
+
             return View();
         }
 
@@ -58,7 +68,7 @@ namespace SWPharmacy.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,ClienteID,ProdutoID,Quantidade,ValorTotal")] Venda venda)
+        public async Task<IActionResult> Create([Bind("Id,ClienteID,ProdutoID,Quantidade,ValorTotal,TipoPagamento")] Venda venda)
         {
             if (ModelState.IsValid)
             {
@@ -68,6 +78,15 @@ namespace SWPharmacy.Controllers
             }
             ViewData["ClienteID"] = new SelectList(_context.Clientes, "Id", "Id", venda.ClienteID);
             ViewData["ProdutoID"] = new SelectList(_context.Produtos, "Id", "Id", venda.ProdutoID);
+            var TipoPagamento = Enum.GetValues(typeof(TipoPagamento))
+
+                .Cast<TipoPagamento>()
+                .Select(e => new SelectListItem
+                {
+                    Value = e.ToString(),
+                    Text = e.ToString()
+                });
+            ViewBag.TipoPagamento = TipoPagamento;
             return View(venda);
         }
 
@@ -94,7 +113,7 @@ namespace SWPharmacy.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,ClienteID,ProdutoID,Quantidade,ValorTotal")] Venda venda)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,ClienteID,ProdutoID,Quantidade,ValorTotal,TipoPagamento")] Venda venda)
         {
             if (id != venda.Id)
             {

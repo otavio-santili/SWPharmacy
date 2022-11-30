@@ -3,7 +3,7 @@ using System.Drawing;
 
 namespace SWPharmacy.Models
 {
- //   public enum TipoPagamento {Dinheiro, Débito, Crédito, PIX};
+    public enum TipoPagamento {Dinheiro, Débito, Crédito, PIX};
     public class Venda
     {
         public int Id { get; set; }
@@ -13,6 +13,6 @@ namespace SWPharmacy.Models
         public Produto Produtos { get; set; }
         public int Quantidade { get; set; }
         public float ValorTotal { get; set; }
-    //    public TipoPagamento TipoPagamento { get; set; }
+        public TipoPagamento TipoPagamento { get; set; }
     }
 }

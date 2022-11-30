@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SWPharmacy.Models;
 
@@ -11,9 +12,10 @@ using SWPharmacy.Models;
 namespace SWPharmacy.Migrations
 {
     [DbContext(typeof(Contexto))]
-    partial class ContextoModelSnapshot : ModelSnapshot
+    [Migration("20221130034614_v8")]
+    partial class v8
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -121,6 +123,9 @@ namespace SWPharmacy.Migrations
                         .HasColumnType("int");
 
                     b.Property<int>("TipoPagamento")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TipoPagamentoID")
                         .HasColumnType("int");
 
                     b.Property<float>("ValorTotal")
