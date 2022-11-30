@@ -13,5 +13,7 @@
         public string Cidade { get; set; }
         public string Endereco { get; set; }
         public int NumCasa { get; set; }
+
+        public ICollection<Venda> Vendas { get; set; }
     }
 }

@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\SWPharmacy.props" />
-</Project>

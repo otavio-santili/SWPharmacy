@@ -8,11 +8,21 @@
 <h1>Index</h1>
 
 <p>
+    @using (@Html.BeginForm())
+    {
+        @Html.TextBox("search") <input type="submit" value="search" />
+    }
+</p>
+
+<p>
     <a asp-action="Create">Create New</a>
 </p>
 <table class="table">
     <thead>
         <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ClienteID)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.Quantidade)
             </th>
@@ -28,6 +38,9 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClienteID)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Quantidade)
             </td>

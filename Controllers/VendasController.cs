@@ -19,9 +19,13 @@ namespace SWPharmacy.Controllers
         }
 
         // GET: Vendas
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string search = " ")
         {
-              return View(await _context.Vendas.ToListAsync());
+            if (search == null)
+            {
+                return View(await _context.Vendas.ToListAsync());
+            }
+            return View(await _context.Vendas.Where(x => x.Id.Contains(search)).ToListAsync());
         }
 
         // GET: Vendas/Details/5
