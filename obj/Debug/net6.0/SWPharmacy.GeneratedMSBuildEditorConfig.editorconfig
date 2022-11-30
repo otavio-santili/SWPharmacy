@@ -16,26 +16,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Otavio Santili\source\repos\SWPharmacy\SWPharmacy
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Otavio Santili/source/repos/SWPharmacy/SWPharmacy/Views/Clientes/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Otavio Santili/source/repos/SWPharmacy/SWPharmacy/Views/Clientes/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Otavio Santili/source/repos/SWPharmacy/SWPharmacy/Views/Clientes/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Otavio Santili/source/repos/SWPharmacy/SWPharmacy/Views/Clientes/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Otavio Santili/source/repos/SWPharmacy/SWPharmacy/Views/Clientes/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Otavio Santili/source/repos/SWPharmacy/SWPharmacy/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -44,92 +24,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Otavio Santili/source/repos/SWPharmacy/SWPharmacy/Views/Operadores/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmFkb3Jlc1xDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Otavio Santili/source/repos/SWPharmacy/SWPharmacy/Views/Operadores/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmFkb3Jlc1xEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Otavio Santili/source/repos/SWPharmacy/SWPharmacy/Views/Operadores/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmFkb3Jlc1xEZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Otavio Santili/source/repos/SWPharmacy/SWPharmacy/Views/Operadores/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmFkb3Jlc1xFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Otavio Santili/source/repos/SWPharmacy/SWPharmacy/Views/Operadores/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmFkb3Jlc1xJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Otavio Santili/source/repos/SWPharmacy/SWPharmacy/Views/Produtos/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Otavio Santili/source/repos/SWPharmacy/SWPharmacy/Views/Produtos/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Otavio Santili/source/repos/SWPharmacy/SWPharmacy/Views/Produtos/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Otavio Santili/source/repos/SWPharmacy/SWPharmacy/Views/Produtos/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Otavio Santili/source/repos/SWPharmacy/SWPharmacy/Views/Produtos/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Otavio Santili/source/repos/SWPharmacy/SWPharmacy/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Otavio Santili/source/repos/SWPharmacy/SWPharmacy/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Otavio Santili/source/repos/SWPharmacy/SWPharmacy/Views/Vendas/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGFzXENyZWF0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Otavio Santili/source/repos/SWPharmacy/SWPharmacy/Views/Vendas/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGFzXERlbGV0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Otavio Santili/source/repos/SWPharmacy/SWPharmacy/Views/Vendas/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGFzXERldGFpbHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Otavio Santili/source/repos/SWPharmacy/SWPharmacy/Views/Vendas/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGFzXEVkaXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Otavio Santili/source/repos/SWPharmacy/SWPharmacy/Views/Vendas/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGFzXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Otavio Santili/source/repos/SWPharmacy/SWPharmacy/Views/Vendedores/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGVkb3Jlc1xDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Otavio Santili/source/repos/SWPharmacy/SWPharmacy/Views/Vendedores/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGVkb3Jlc1xEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Otavio Santili/source/repos/SWPharmacy/SWPharmacy/Views/Vendedores/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGVkb3Jlc1xEZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Otavio Santili/source/repos/SWPharmacy/SWPharmacy/Views/Vendedores/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGVkb3Jlc1xFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Otavio Santili/source/repos/SWPharmacy/SWPharmacy/Views/Vendedores/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGVkb3Jlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Otavio Santili/source/repos/SWPharmacy/SWPharmacy/Views/_ViewImports.cshtml]
